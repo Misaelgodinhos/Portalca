@@ -1,0 +1,1 @@
+window.PORTAL_CA_SUPABASE={url:"https://dthqzavxqoejqszsijqd.supabase.co",key:"sb_publishable_rN1cirhfpFyxghxKx-gLTA_Ca0TP_Rn"};

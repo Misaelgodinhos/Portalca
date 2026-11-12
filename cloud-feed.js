@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",async()=>{try{const remote=await caPublished();const localIds=new Set(DEMOS.map(x=>x.id));for(const p of remote){if(!localIds.has(p.id))DEMOS.unshift({...p,date:new Date(p.created_at).toLocaleDateString("pt-BR")})}if(typeof render==="function")render()}catch(e){console.warn("Portal CA: não foi possível carregar matérias online",e)}});
